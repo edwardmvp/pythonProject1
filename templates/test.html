@@ -1,0 +1,9 @@
+{%extends 'base.html'%}
+{%block body%}
+<h2>{{the_title}}</h2>
+<form method="POST" action="/testresult">
+    <p>Впишите свое имя</p>
+    <input name="your_name" type="TEXT" width="60">
+    <p><input value= 'Ok' type="SUBMIT"></p>
+</form>
+{%endblock%}
